@@ -11,11 +11,6 @@ Resource    ../CustomKeywords/deeplink.resource
 *** Variables ***
 
 *** Test Cases ***
-Spusti Appku
-    Run App
-    Sleep    20s
-Navigation Check
-    Close Application
 
-
-
+Check deeplink
+    Open deeplink
